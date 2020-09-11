@@ -4,10 +4,10 @@ function [SROCC,PLCC,ypre] = nonlinearfitting(objectiveValues, subjectiveValues)
 %   subjectiveValues: ...
 %   subjective_stdValues: ...
 %   output:
-%   SROCC, KRCC, PLCC, OR, RMSE: values of the five performance metrics
+%   SROCC, PLCC
 %   ypre: after non-linear mapping
 
-% calculate SROCC and KROCC before the non-linear mapping
+% calculate SROCC before the non-linear mapping
 SROCC = corr(objectiveValues, subjectiveValues,'type','Spearman');
 
 %initialize the parameters used by the nonlinear fitting function
