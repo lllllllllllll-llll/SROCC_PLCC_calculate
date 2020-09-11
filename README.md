@@ -5,6 +5,6 @@ Matlab code for calculates the SROCC and PLCC metrics (code for image quality as
 1. Put your predicted image quality scores and gound truth scores to the txt file.
 2. run 'calculate.mat'
 
-#Thanks
+# Thanks
 The non linearfitting code is provided by [LiDingquan](https://github.com/lidq92/CNNIQA) 
 
